@@ -1,0 +1,12 @@
+.class1{
+    text-decoration: overline;
+}
+.class2{
+    text-decoration: line-through;
+}
+.class3{
+    text-decoration: underline;
+}
+.class4{
+    text-decoration:overline underline;
+}

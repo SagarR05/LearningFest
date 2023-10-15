@@ -1,0 +1,12 @@
+.parent > .child1{
+    display:flex;
+    justify-content: space-between;
+}
+.child2{
+    display:flex;
+    justify-content: center;
+}
+.child3{
+    display:flex;
+    justify-content: space-between;
+}

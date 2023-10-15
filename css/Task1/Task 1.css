@@ -1,0 +1,12 @@
+.parent {
+    height:300px;
+    width:1000px;
+    background-color: darkslateblue;
+}
+.parent > .child1{
+    height:50px;
+    color:beige;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding:100px;
+}
