@@ -1,0 +1,26 @@
+body{
+    display:flex;
+    justify-content:center
+}
+.fclass{
+    background-color:white;
+    width:700px;
+    height:600px;
+    border:1px solid lightgrey;
+}
+.lclass{
+    display: flex;
+    justify-content: center;
+}
+.butclass{
+    display:flex;
+    flex-direction: row;
+}
+.register{
+    display: flex;
+    justify-content: center; 
+}
+#submittxt{
+    color:black;
+    background-color: lightgrey;
+}

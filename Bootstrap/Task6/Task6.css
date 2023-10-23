@@ -1,0 +1,37 @@
+#navclass{
+    display:flex;
+    justify-content: space-between;
+}
+.class3{
+    display:flex;
+    justify-content:center
+}
+.fclass{
+    background-color:white;
+    width:700px;
+    height:650px;
+    border:1px solid lightgrey;
+}
+.lclass{
+    display: flex;
+    justify-content: center;
+}
+.butclass{
+    display:flex;
+    flex-direction: row;
+}
+.register{
+    display: flex;
+    justify-content: center; 
+}
+#submittxt{
+    color:black;
+    background-color: lightgrey;
+}
+h3{
+    display:flex;
+    justify-content: center;
+}
+.class4{
+    background-color: lightblue;
+}
