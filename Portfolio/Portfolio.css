@@ -1,0 +1,32 @@
+#img{
+    height:300px;
+    width:360px;
+    border-radius: 50%;
+}
+.intro{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    margin:10px;
+}
+#aboutme{
+    text-align: center;
+}
+#expertise{
+    text-align:center;
+}
+#connectimg{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+
+}
+#gmail{
+    width:100px;
+}
+#github{
+    width:100px;
+}
+#mysql{
+    height:260px;
+}
