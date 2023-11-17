@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <ol id="myList"></ol>
+    <script>
+      fetch("persons.json")
+      .then(response => response.json())
+      .then(data => showInfo(data))
+
+      function showInfo(data){
+        console.log(data.length)
+        for(let i=0; i<8;i++) {
+        const personList=document.getElementById("myList");
+        const listItem= document.createElement('li')
+        listItem.textContent=data[i].name +", " +data[i].age
+        personList.appendChild(listItem);
+    };
+      }
+    </script>
+</body>
+</html>
