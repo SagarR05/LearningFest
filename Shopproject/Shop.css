@@ -1,0 +1,38 @@
+.body{
+    height:1850px;
+    
+}
+#navbar{
+    height:200px;
+}
+#navbarNav{
+    display:flex;
+    justify-content: flex-end;
+}
+.shopimg{
+    display:flex;
+    justify-content:center;
+    padding:20px;
+}
+.shopimg>.shopimage{
+        width:700px;
+        height:500px;
+        border:10px solid orange;
+        border-radius:20px 20px 20px 20px;
+}
+#shopimg{
+    height:215px;
+}   
+#printerimg{
+    height:275px;
+}
+#map{
+    display:flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 20px;
+}
+.contactus{
+    background-color: orange;
+    height:300px
+}
