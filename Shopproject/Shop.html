@@ -8,91 +8,96 @@
     <link rel="stylesheet" href="Shop.css">
 </head>
 <body >
-  <div class="body">
+    <div class="col-12" id="body">
    
-   <section id="home">
-    <nav class="navbar navbar-expand-lg navbar-light" id="navbar" style="background-color:orange" >
-        <a class="navbar-brand" href="#">Kalakkattu Stores</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav" id="navbarcontent">
-            <li class="nav-item">
-              <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#services">Services</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#location">Location</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#contact">Contact us</a>
-            </li>
-          </ul>
-        </div>
-      </nav> 
+        <section id="home">
 
-      <div class="col-12" id="shopimg">
-        <img src="Shop.jpg" class="shopimage">
+              <nav class="navbar navbar-expand-lg navbar-light " style="background-color: orange;" id="navid">
+                <div id="nav1">
+                <a class="navbar-brand" href="#" id="kala">Kalakkattu Stores</a>
+                </div>
+                <div id="nav2">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                  <div class="navbar-nav" id="nav2">
+                    <a class="nav-item nav-link" href="#home" >Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-item nav-link" href="#services">Services</a>
+                    <a class="nav-item nav-link" href="#location" >Location</a>
+                    <a class="nav-item nav-link " href="#contact" >Contact</a>
+                  </div> 
+                  </div>
+                </div>
+              </nav>
+         </div> 
+           
+
+         <div  id="shopimg">
+          <img src="Shop.jpg" id="shopimage" class="img-fluid">
+        </div>
+        <div  id="shopintro">
+          <h2>Home</h2>
+          <div >
+              <p class="p-3 mb-2 bg-light text-dark">Kalakkattu stores is  a stationary store located at Malamekkara,Peringanadu.The store offers a wide variety of services.</p>
+        </div>
+     </section>
+
+    
+
+      <section id="services">
+        <h3>Services we provide</h3>
+       
+        <div class="col-12" id="cards">
+          <div class="card-deck">
+            <div class="col-12 col-sm-12 col-md-4">
+              <div class="card mx-auto" id="itemid" style="width: 18rem; background-color: orange;">
+                  <img class="card-img-top" src="Shopitems.jpg" alt="Card image cap" id="itemsimg">
+                  <div class="card-body">
+                    <p class="card-text">We provide a variety of food items ranging from snacks to groceries.</p>
+                  </div>
+              </div>
+            </div>
+            <div class="col-12 col-sm-12 col-md-4">
+              <div class="card mx-auto" id="cardid" style="width: 18rem; background-color: orange;">
+                  <img class="card-img-top" src="Tailor.jpg"  alt="Card image cap" id="taiorimg">
+                  <div class="card-body">
+                    <p class="card-text">We offer tailoring services.</p>
+                  </div>
+              </div>
+            </div>
+            <div class="col-12 col-sm-12 col-md-4">
+              <div class="card mx-auto" id="cardid" style="width: 18rem; background-color: orange;">
+                  <img class="card-img-top" src="Printer.jpg" id="printerimg">
+                   <div class="card-body">
+                  <p class="card-text">We offer printer and photostat services.</p>
+                  </div>
+              </div>
+            </div>
+    
       </div>
-      <div class="col-12" id="shopintro">
-        <h2>Home</h2>
-        <div class="col-12">
-            <p class="p-3 mb-2 bg-light text-dark">Kalakkattu stores is  a stationary store located at Malamekkara,Peringanadu.The store offers a wide variety of services.</p>
-      </div>
-   </section>
+       </div>
+       </section>
+     
+       <section id="location">
+        <h3>Location</h3>
+       <div class="col-12" id="map">
+         <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d984.7477151134741!2d76.71352134677262!3d9.155296299348683!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1700659769493!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+         </div>
+      </section>
+        <br><br>
+      <section id="contact" >
+        <div class="col-12" id="contactus">
+        <h3>Contact us</h3>
+        <p>+919447593876</p>
+        </div>
+       </section>  
 
-   <section id="services">
-    <h3>Services we provide</h3>
-   <div class="col-12" id="services">
-    <div class="container">
-      <div class="row">
-        <div class="col-12 col-sm-12 col-md-4">
-          <div class="card" style="width: 18rem; background-color: orange;">
-              <img class="card-img-top" src="Shopitems.jpg" alt="Card image cap" id="shopimg">
-              <div class="card-body">
-                <p class="card-text">We provide a variety of food items ranging from snacks to groceries.</p>
-              </div>
-          </div>
-        </div>
-        <div class="col-12 col-sm-12 col-md-4">
-          <div class="card" style="width: 18rem; background-color: orange;">
-              <img class="card-img-top" src="Tailor.jpg"  alt="Card image cap" id="img">
-              <div class="card-body">
-                <p class="card-text">We offer tailoring services.</p>
-              </div>
-          </div>
-        </div>
-        <div class="col-12 col-sm-12 col-md-4">
-          <div class="card" style="width: 18rem; background-color: orange;">
-              <img class="card-img-top" src="Printer.jpg" id="printerimg">
-                <p class="card-text">We offer printer and photostat services.</p>
-              </div>
-          </div>
-        </div>
 
-  </div>
-   </div>
-   </section><br><br>
- <section id="location">
-   <h3>Location</h3>
-  <div class="col-12" id="map">
-    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d984.7477151134741!2d76.71352134677262!3d9.155296299348683!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1700659769493!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-    </div>
- </section>
-  <br><br>
- <section id="contact" >
-  <div class="col-12" id="contactus">
-  <h3>Contact us</h3>
-  <p>+919447593876</p>
-  </div>
- </section>
-  </div>  
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+
+
+         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-
 </body>
-</html>
+  
